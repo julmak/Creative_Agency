@@ -346,6 +346,12 @@ li a:only-child:after {
     text-transform: uppercase;
 }
 .portfolio-categories {
+    float: left;
+    clear: both;
+    padding: 20px 10px;
+}
+.portfolio-category {
+    text-decoration: none;
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
     font-weight: bold;
@@ -353,12 +359,6 @@ li a:only-child:after {
     text-transform: uppercase;
     height: 225px;
     line-height: 30px;
-    margin-top: 30px;
-}
-.portfolio-category {
-    float: left;
-    clear: both;
-    padding: 0px 10px;
 }
 .portfolio-category:hover {
     color: white;
